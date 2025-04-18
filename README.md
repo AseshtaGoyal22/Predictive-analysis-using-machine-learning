@@ -33,6 +33,10 @@ The dataset included several faetures such as:
 
 The target variable (engagement_label) was derived by calculating the median of the likes column.
 
-# Model Development and Evaluation:
+## Model Development and Evaluation:
 
-1. Feature Engineering: Categorical features such as post_type, device_type, and location were encoded using StringIndexer followed by OneHotEncoder.
+1. Feature Engineering: Categorical features such as post_type, device_type, and location were encoded using StringIndexer followed by OneHotEncoder. Numerical features like comments were used directly. All features were then assembled into a single feature vector using VectorAssembler.
+
+2. Model Training: A Logistic Regression model was trained on 80% of the data, while the remaining 20% was used for evaluation. Logistic Regression was chosen due to its simplicity and effectiveness in binary classification problems.
+
+3. Model Evaluation: The model was evaluated using ROC-AUC (Receiver Operating Characteristic- Area Under Curve). This metric helps to understand how well the model distinguishes between high and low enga
