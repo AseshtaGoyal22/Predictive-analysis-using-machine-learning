@@ -12,7 +12,7 @@
 
 *MENTOR*- NEELA SANTOSH
 
-## Project Description: Social Media Post Engagement Classification
+# Project Description: Social Media Post Engagement Classification
 
 In this internship project, I built an end to end machine learning pipeline to classify social media posts as having either high or low engagement, based on various faetures available in the dataset. This task is an essential part of understanding how machine learning models are developed, trained, and evaluated in a real world scenario.
 
